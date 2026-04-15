@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Box, Typography, IconButton, InputAdornment, Link } from '@mui/material';
-import { Eye, EyeOff, ShieldCheck, Users, Settings, Database, LayoutDashboard } from 'lucide-react';
+import { Eye, EyeOff, ShieldCheck, Users, Settings, Database } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
